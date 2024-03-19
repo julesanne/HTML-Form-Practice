@@ -1,0 +1,14 @@
+body {
+    padding: 10px;
+  }
+  
+  input {
+    margin: 10px;
+  }
+
+  @media all and (min-width: 600px) {
+    input {
+      display: flex;
+      justify-content: space-between;
+    }
+}
